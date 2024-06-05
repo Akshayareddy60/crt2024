@@ -28,6 +28,11 @@ CODE:
 
 int main() {
 
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    float a;
+    scanf("%f",&a);
+    printf("%d\n",(int)a);
+    float b=ceil(a);
+    float c=floor(a);
+    printf("%.1f\n%.1f",b,c);
     return 0;
 }
