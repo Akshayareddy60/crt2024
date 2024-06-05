@@ -28,6 +28,10 @@ Sample Output 0
 
 int main() {
 
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int l,b;
+    scanf("%d%d",&l,&b);
+    int p=2*(l+b);
+    int A=l*b;
+    printf("%d\n%d",p,A);
     return 0;
 }
