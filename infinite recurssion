@@ -1,0 +1,12 @@
+#include <stdio.h>
+void m1()
+{
+    printf("Good morning");
+    m1();
+}
+int main()
+{
+    m1();
+    
+}
+
