@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main() {
+ int *a;
+ a=(int*)calloc(5,sizeof(int));
+ //a=(int*)malloc(5*sizeof (int))
+  int i;
+  for(i=0;i<5;i++)
+  {
+      scanf("%d",(a+i));
+  }
+  for(i=0;i<5;i++)
+  {
+      printf("%d Address=%u\n",*(a+i),(a+i));
+  }
+}
+o/p:
+1
+2
+3
+4
+5
+1 Address=37397152
+2 Address=37397156
+3 Address=37397160
+4 Address=37397164
+5 Address=37397168
